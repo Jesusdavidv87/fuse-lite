@@ -1,0 +1,1 @@
+java<br>package com.fuselite.api;<br><br>import org.springframework.web.bind.annotation.GetMapping;<br>import org.springframework.web.bind.annotation.RestController;<br><br>@RestController<br>public class HealthController {<br> @GetMapping("/health")<br> public String health() {<br> return "OK";<br> }<br>}<br>
